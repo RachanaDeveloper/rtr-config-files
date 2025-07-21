@@ -1,0 +1,4 @@
+service:
+  info: Account Microservice (Production)
+server:
+  port: 8080

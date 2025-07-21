@@ -1,0 +1,4 @@
+service:
+  info: Customer Microservice (Quality Assurance)
+server:
+  port: 8080

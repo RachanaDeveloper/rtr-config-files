@@ -1,0 +1,19 @@
+service:
+  info: Customer Microservice (Development)
+  version: 1.0.3 beta
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: ${DB_URL}
+    username: ${DB_USERNAME} #get username from vault
+    password: ${DB_PWD}
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:8080/realms/dms
+server:
+  port: 9000

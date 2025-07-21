@@ -1,0 +1,4 @@
+service:
+  info: Customer Microservice (Production)
+server:
+  port: 8080
