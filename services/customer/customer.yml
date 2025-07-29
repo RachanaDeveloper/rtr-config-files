@@ -1,6 +1,6 @@
 service:
   name: customer
-  info: Customer Microservice (Development)
+  info: Customer MS (Development)
   version: 1.0.3 beta
 spring:
   jpa:
