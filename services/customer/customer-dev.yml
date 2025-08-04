@@ -14,6 +14,6 @@ spring:
     oauth2:
       resourceserver:
         jwt:
-          issuer-uri: http://localhost:8080/realms/dms
+          issuer-uri: https://oauth2-ac.istad.co/realms/rtr-ms
 server:
   port: 9000
