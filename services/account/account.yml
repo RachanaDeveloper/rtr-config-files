@@ -8,9 +8,12 @@ spring:
       ddl-auto: update
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: ${DB_URL}
-    username: ${DB_USERNAME} #get username from vault
-    password: ${DB_PWD}
+    url: jdbc:postgresql://rtr-ms-postgres:5432/db_account
+    username: rtrpostgres
+    password: pwd
+    # url: ${DB_URL}
+    # username: ${DB_USERNAME} #get username from vault
+    # password: ${DB_PWD}
   security:
     oauth2:
       resourceserver:
