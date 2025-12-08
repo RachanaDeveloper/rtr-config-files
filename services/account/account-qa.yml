@@ -7,7 +7,7 @@ spring:
   datasource:
     driver-class-name: org.postgresql.Driver
     url: ${DB_URL}
-    username: ${DB_USERNAME} #get username from vault
+    username: ${DB_USERNAME} #get username from vault web
     password: ${DB_PWD}
   security:
     oauth2:
